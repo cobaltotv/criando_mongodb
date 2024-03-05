@@ -23,7 +23,7 @@ sudo yum install -y mongodb-org
 
 # PARA VERIFICAR O STATUS
 
-(STATUS%20MONGODB.png)
+![status](STATUS%20MONGODB.png)
 
 sudo service mongod status
 
@@ -40,6 +40,6 @@ pwd
 
 vi mongod.conf
 
-!(all%20ip.png)
+![all](all%20ip.png)
 
 alterar para 0.0.0.0
