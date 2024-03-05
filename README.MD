@@ -23,8 +23,7 @@ sudo yum install -y mongodb-org
 
 # PARA VERIFICAR O STATUS
 
-![esquema](mongodb.png)
-
+![status](STATUS%20MONGODB.png)
 
 sudo service mongod status
 
@@ -32,14 +31,13 @@ sudo service mongod status
 
 sudo service mongod start
 
-# PROXIMOS PASSOS 
 
-#dentro do super usuario usaremos esses codigos
+# PROXIMOS PASSOS 
 
 cd /etc
 
-pwd 
+pwd
 
-vi mongodb
+vi mongod.conf
 
-
+![all](all%20ip.png)
